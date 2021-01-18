@@ -40,8 +40,9 @@ export default function Model({ ...props }) {
   }, [props.animationType, mixer, animations]);
 
   useFrame((state, delta) => {
+    debugger;
     mixer.update(delta);
-    moveJoint(props.mouse, nodes.mixamorigNeck);
+    moveJoint(props.mouse, nodes.mixamorigHead);
     moveJoint(props.mouse, nodes.mixamorigSpine);
   });
 
