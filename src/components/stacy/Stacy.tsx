@@ -28,7 +28,7 @@ export default function Model({ ...props }) {
   const texture = useLoader(THREE.TextureLoader, "/stacy.jpg");
 
   const actions = useRef();
-  const [mixer] = useState(() => new THREE.AnimationMixer(null));
+  const [mixer] = useState(() => new THREE.AnimationMixer(nodes[props.animationType]));
   useFrame((state, delta) => mixer.update(delta));
 
   useEffect(() => {
