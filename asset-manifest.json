@@ -2,17 +2,17 @@
   "files": {
     "main.js": "/threeJs-experiment/static/js/main.f5e926b4.chunk.js",
     "main.js.map": "/threeJs-experiment/static/js/main.f5e926b4.chunk.js.map",
-    "runtime-main.js": "/threeJs-experiment/static/js/runtime-main.a50a9f56.js",
-    "runtime-main.js.map": "/threeJs-experiment/static/js/runtime-main.a50a9f56.js.map",
+    "runtime-main.js": "/threeJs-experiment/static/js/runtime-main.441592dc.js",
+    "runtime-main.js.map": "/threeJs-experiment/static/js/runtime-main.441592dc.js.map",
     "static/js/2.aa0abf12.chunk.js": "/threeJs-experiment/static/js/2.aa0abf12.chunk.js",
     "static/js/2.aa0abf12.chunk.js.map": "/threeJs-experiment/static/js/2.aa0abf12.chunk.js.map",
-    "static/js/3.a867de9c.chunk.js": "/threeJs-experiment/static/js/3.a867de9c.chunk.js",
-    "static/js/3.a867de9c.chunk.js.map": "/threeJs-experiment/static/js/3.a867de9c.chunk.js.map",
+    "static/js/3.8da81dfb.chunk.js": "/threeJs-experiment/static/js/3.8da81dfb.chunk.js",
+    "static/js/3.8da81dfb.chunk.js.map": "/threeJs-experiment/static/js/3.8da81dfb.chunk.js.map",
     "index.html": "/threeJs-experiment/index.html",
     "static/js/2.aa0abf12.chunk.js.LICENSE.txt": "/threeJs-experiment/static/js/2.aa0abf12.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a50a9f56.js",
+    "static/js/runtime-main.441592dc.js",
     "static/js/2.aa0abf12.chunk.js",
     "static/js/main.f5e926b4.chunk.js"
   ]
