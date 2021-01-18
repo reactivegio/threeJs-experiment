@@ -25,8 +25,8 @@ function moveJoint(mouse: any, joint: any, degreeLimit: number = 40) {
 
 export default function Model({ ...props }) {
   const group = useRef();
-  const { nodes, animations } = useLoader(GLTFLoader, "/capoeira.glb");
-  const texture = useLoader(THREE.TextureLoader, "/capoeira.jpg");
+  const { nodes, animations } = useLoader(GLTFLoader, "./threeJs-experiment/capoeira.glb");
+  const texture = useLoader(THREE.TextureLoader, "./threeJs-experiment/capoeira.jpg");
 
   const actions = useRef();
   const [mixer] = useState(() => new THREE.AnimationMixer(nodes[props.animationType]));
